@@ -8,160 +8,114 @@
     tools:context=".MainActivity"
     >
 
-    <!--    <TextView-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="Hello World!"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--        app:layout_constraintRight_toRightOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-    <LinearLayout
-        android:id="@+id/line1"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="1,1"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="1,2"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="1,3"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="1,4"
-            android:layout_margin="5dp"
-            />
-    </LinearLayout>
+        android:layout_height="match_parent">
 
-    <LinearLayout
-        android:id="@+id/line2"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
         <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="2,1"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="2,2"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="2,3"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="2,4"
-            android:layout_margin="5dp"
-            />
-    </LinearLayout>
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="1"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="240dp" />
 
-    <LinearLayout
-        android:id="@+id/line3"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
         <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="3,1"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="3,2"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="3,3"
-            android:layout_margin="5dp"
-            />
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="3,4"
-            android:layout_margin="5dp"
-            />
-    </LinearLayout>
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="2"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="300dp" />
 
-    <LinearLayout
-        android:id="@+id/line4"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
         <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="4,1"
-            android:layout_margin="5dp"
-            />
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="3"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="360dp" />
+
         <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="4,2"
-            android:layout_margin="5dp"
-            />
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="4"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="420dp" />
+
         <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="4,3"
-            android:layout_margin="5dp"
-            />
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="1"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="240dp" />
+
         <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="4,4"
-            android:layout_margin="5dp"
-            />
-    </LinearLayout>
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="2"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="300dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="3"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="4"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="1"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="240dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="2"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="300dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="3"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="4"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="186dp"
+            android:layout_height="47dp"
+            android:text="0"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="97dp" />
 
 
-
-
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
